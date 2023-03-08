@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    width: 90vw;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#frame {
+    width: 800px;
+    height: 800px;
+    background-color: beige;
+    display: grid;
+}
+
+.dashboard {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}

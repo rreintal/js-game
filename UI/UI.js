@@ -68,29 +68,3 @@ class UI {
         }
     }
 }
-
-
-/*
-
-initialDraw() {
-        this.clearFrame()
-
-        let rows = game.rows
-        let HEIGHT = rows.length
-        let WIDTH = rows[0].pixels.length
-
-        for(let y = 0; y < HEIGHT; y++) {
-            
-            for(let x = 0; x < WIDTH; x++) {
-                let pixel = rows[y].pixels[x]
-                let node = document.createElement('div')
-                node.className = 'pixel'
-
-                node.style.backgroundColor = this.getPixelColor(pixel)
-
-                this.frame.appendChild(node)
-            }
-        }
-    }
-
-*/
